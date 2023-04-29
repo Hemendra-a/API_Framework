@@ -6,9 +6,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/java/features",
-plugin ={"pretty","html:target/cucumber.html","json:target/jsonReports/cucumber-report.json",
-"junit:target/cukes.xml"},
-glue= {"stepDefinations"})
+plugin ={"pretty","json:target/jsonReports/cucumber-report.json",
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+		,"rerun:target/failed_scenarios.txt"},
+glue= {"stepDefinations"},tags= "")
 public class TestRunner {
 //tags= {"@DeletePlace"}  compile test verify
 }
