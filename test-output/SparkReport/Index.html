@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Apr 30, 2023 03:28:15 am</span></a>
+<a href="#"><span class="badge badge-primary">Apr 30, 2023 11:37:05 pm</span></a>
 </li>
 </ul>
 </div>
@@ -66,13 +66,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Apr 30, 2023 03:28:15 am</h3>
+<h3>Apr 30, 2023 11:37:05 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Apr 30, 2023 03:28:28 am</h3>
+<h3>Apr 30, 2023 11:37:17 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"Validating Place API's":9.69
+"Validating Place API's":10.055
 };
 </script>
 <div class="row">
@@ -171,6 +171,14 @@ var timeline = {
 <div class="card-header"><p>Tags</p></div>
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@AddPlace</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
 <tr>
 <td>@Regression</td>
 <td>3</td>
@@ -182,14 +190,6 @@ var timeline = {
 <tr>
 <td>@DeletePlace</td>
 <td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@AddPlace</td>
-<td>2</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -240,7 +240,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@Regression</a><a class="dropdown-item" href="#">@DeletePlace</a><a class="dropdown-item" href="#">@AddPlace</a>
+<a class="dropdown-item" href="#">@AddPlace</a><a class="dropdown-item" href="#">@Regression</a><a class="dropdown-item" href="#">@DeletePlace</a>
 </ul>
 </li>
 </ul>
@@ -253,7 +253,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Validating Place API's</p>
             <p class="text-sm">
-              <span>3:28:18 am</span> / <span>00:00:09:690</span>
+              <span>11:37:07 pm</span> / <span>00:00:10:055</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -262,9 +262,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Validating Place API's</h5>
-<span class='badge badge-success'>04.30.2023 3:28:18 am</span>
-<span class='badge badge-danger'>04.30.2023 3:28:27 am</span>
-<span class='badge badge-default'>00:00:09:690</span>
+<span class='badge badge-success'>04.30.2023 11:37:07 pm</span>
+<span class='badge badge-danger'>04.30.2023 11:37:17 pm</span>
+<span class='badge badge-default'>00:00:10:055</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -414,6 +414,52 @@ eventsCount: 5,
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@AddPlace</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@AddPlace</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:37:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Verify if Place is being Succesfully added using AddPlaceAPI</a>
+<div class="">
+<span class="badge badge-default">Validating Place API's.Verify if Place is being Succesfully added using AddPlaceAPI</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:37:14 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Verify if Place is being Succesfully added using AddPlaceAPI</a>
+<div class="">
+<span class="badge badge-default">Validating Place API's.Verify if Place is being Succesfully added using AddPlaceAPI</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
 <span class='badge log pass-bg'>3</span>
 </span>
 <p class="name">@Regression</p>
@@ -435,7 +481,7 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>03:28:18 am</td>
+<td>23:37:07 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='3'>Verify if Place is being Succesfully added using AddPlaceAPI</a>
 <div class="">
@@ -445,7 +491,7 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>03:28:25 am</td>
+<td>23:37:14 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='10'>Verify if Place is being Succesfully added using AddPlaceAPI</a>
 <div class="">
@@ -455,7 +501,7 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>03:28:26 am</td>
+<td>23:37:16 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='17'>Verify if Delete Place functionality is working</a>
 <div class="">
@@ -491,57 +537,11 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>03:28:26 am</td>
+<td>23:37:16 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='17'>Verify if Delete Place functionality is working</a>
 <div class="">
 <span class="badge badge-default">Validating Place API's.Verify if Delete Place functionality is working</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>2</span>
-</span>
-<p class="name">@AddPlace</p>
-<p class="duration text-sm">2 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@AddPlace</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>03:28:18 am</td>
-<td>
-<a href="#" class="linked" test-id='1' id='3'>Verify if Place is being Succesfully added using AddPlaceAPI</a>
-<div class="">
-<span class="badge badge-default">Validating Place API's.Verify if Place is being Succesfully added using AddPlaceAPI</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>03:28:25 am</td>
-<td>
-<a href="#" class="linked" test-id='1' id='10'>Verify if Place is being Succesfully added using AddPlaceAPI</a>
-<div class="">
-<span class="badge badge-default">Validating Place API's.Verify if Place is being Succesfully added using AddPlaceAPI</span>
 </div>
 </td>
 </tr>
